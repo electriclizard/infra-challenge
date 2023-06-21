@@ -37,7 +37,6 @@ app = FastAPI()
 router = APIRouter()
 
 
-@app.on_event("startup")
 async def create_queue():
     app.models_queues = {}
     for md in models:

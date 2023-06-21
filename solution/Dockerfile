@@ -9,3 +9,4 @@ RUN pip install -U -r requirements.txt
 RUN git init
 
 ENTRYPOINT [ "bash", "start.sh" ]
+
